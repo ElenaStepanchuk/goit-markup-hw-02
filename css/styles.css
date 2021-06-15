@@ -1,0 +1,68 @@
+/* index.html */
+:root {
+    --second-color: #2196F3;
+}
+body {
+    color: #757575;
+}
+ul {
+    list-style: none;
+}
+/* heder */
+/* log */
+.log-web {
+    color:var(--second-color);
+}
+.log-span {
+    color: #000000;
+}
+/* nav */
+.header-nav {
+    color: #212121;
+}
+.nav-studio:hover,
+.nav-studio:focus{
+    color:var(--second-color);
+}
+.nav-portfolio:hover,
+.nav-portfolio:focus{
+    color:var(--second-color);
+}
+.nav-contacts:hover,
+.nav-contacts:focus{
+    color:var(--second-color);
+}
+a[href="mailto:info@devstudio.com"],
+a[href="tel:+380961111111"]
+{
+    color:#757575;
+}
+.header-mail > a:hover,
+.header-mail > a:focus
+{
+    color:var(--second-color);
+}
+.header-tel:hover,
+.header-tel:focus
+{
+    color:var(--second-color);
+}
+/* hero */
+.hero-section {
+    background-color: #2F303A;
+}
+.hero-name {
+    color: white;
+}
+.hero-button {
+    color: white;
+    background-color:var(--second-color);
+}
+.hero-button:hover, 
+.hero-button:focus{
+    background-color:var(--second-color);
+}
+/* section attention */
+.attention h3 {
+    color: #212121;
+}
