@@ -1,6 +1,7 @@
 /* index.html */
 :root {
     --second-color: #2196F3;
+    --title-color: #212121;
 }
 body {
     color: #757575;
@@ -18,32 +19,20 @@ ul {
 }
 /* nav */
 .header-nav {
-    color: #212121;
+    color:var(--title-color);
 }
-.nav-studio:hover,
-.nav-studio:focus{
-    color:var(--second-color);
+.header-nav a:hover,
+.header-nav a:focus{
+    color:var(--second-color);  
 }
-.nav-portfolio:hover,
-.nav-portfolio:focus{
-    color:var(--second-color);
-}
-.nav-contacts:hover,
-.nav-contacts:focus{
-    color:var(--second-color);
-}
+/* header-adress */
 a[href="mailto:info@devstudio.com"],
 a[href="tel:+380961111111"]
 {
     color:#757575;
 }
-.header-mail > a:hover,
-.header-mail > a:focus
-{
-    color:var(--second-color);
-}
-.header-tel:hover,
-.header-tel:focus
+.header-adress a:hover,
+.header-adress a:focus
 {
     color:var(--second-color);
 }
@@ -62,7 +51,32 @@ a[href="tel:+380961111111"]
 .hero-button:focus{
     background-color:var(--second-color);
 }
-/* section attention */
-.attention h3 {
-    color: #212121;
+/* adout us */
+.about-us h3 {
+    color:var(--title-color);
+}
+/* our occupation */
+.our-occupation h2{
+    color:var(--title-color);
+}
+/* our team */
+.our-team h2{
+    color:var(--title-color);  
+}
+.our-team h3{
+    color:var(--title-color);  
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.log-span-lower {
+    color: #FFFFFF;
+}
+.adress-phisical {
+    color: #FFFFFF;
+}
+.adress-mail,
+.adress-tel {
+    color: rgba(255, 255, 255, 0.6);
 }
