@@ -1,10 +1,11 @@
-/* index.html */
+/* =====================================index.html===================================== */
 :root {
     --accent-color: #2196F3;
     --title-color: #212121;
 }
 body {
     color: #757575;
+    font-family: Roboto, sans-serif;
 }
 .list {
     list-style: none;
@@ -12,7 +13,7 @@ body {
 .link {
     text-decoration: none;
 }
-/* =======================heder======================= */
+/* =======================header======================= */
 /* log */
 .log-web {
     color:var(--accent-color);
@@ -26,7 +27,7 @@ body {
     color: #000000;
 }
 /* nav */
-.header-nav {
+.header-nav a {
     color:var(--title-color);
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -61,7 +62,6 @@ a[href="tel:+380961111111"]
 .hero-name {
     color: white;
     font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -81,11 +81,13 @@ a[href="tel:+380961111111"]
     align-items: center; 
     text-align: center;
     letter-spacing: 0.06em;
+    margin:0 auto;
 }
 .hero-button:hover, 
 .hero-button:focus{
     background-color:var(--accent-color);
 }
+
 /* adout us */
 .about-us h3 {
     color:var(--title-color);
@@ -98,7 +100,6 @@ a[href="tel:+380961111111"]
 }
 .about-us p {
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -134,7 +135,6 @@ a[href="tel:+380961111111"]
 }
 .our-team p {
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -161,6 +161,10 @@ a[href="tel:+380961111111"]
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.adress-phisical:hover,
+.adress-phisical:focus {
+    color:var(--accent-color);
+}
 .adress-mail,
 .adress-tel {
     color: rgba(255, 255, 255, 0.6);
@@ -170,4 +174,48 @@ a[href="tel:+380961111111"]
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.adress-mail:hover,
+.adress-mail:focus {
+    color:var(--accent-color);
+}
+.adress-tel:hover,
+.adress-tel:focus {
+    color:var(--accent-color);
+}
+/* =====================================portfolio.html===================================== */
+/* photo filter */
+.photo-filter li {
+    color:var(--title-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.filter-batton:hover,
+.filter-batton:focus {
+    background-color:var(--accent-color)
+}
+.filter-batton {
+    cursor: pointer;
+}
+/* fhoto list */
+.photo-list h2 {
+    color:var(--title-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.photo-list p {
+
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
