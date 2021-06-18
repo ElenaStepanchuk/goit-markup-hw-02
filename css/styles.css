@@ -185,21 +185,18 @@ a[href="tel:+380961111111"]
 }
 /* =====================================portfolio.html===================================== */
 /* photo filter */
-.photo-filter li {
-    color:var(--title-color);
+.filter-batton {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .filter-batton:hover,
 .filter-batton:focus {
     background-color:var(--accent-color)
-}
-.filter-batton {
-    cursor: pointer;
 }
 /* fhoto list */
 .photo-list h2 {
